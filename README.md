@@ -35,6 +35,9 @@ To make a build run `yarn run build`
 To run app run `yarn run start` then open localhost:3000 in your browser.
 
 ## Description
+This web app shows an option of four pre-selected cities. You can view the weather forecast of every city by clicking on it. Default view is todays weather but you can toggle between three day weather and one day. The weather data is fetched as JSON from https://open-meteo.com/en API with axios. The app is running live on Heroku platform. This app is purely frontend.
 
 ## What to improve
+- OneDay and ThreeDays components can be made to a one reusable component.
+- Make own file for API handling.
 
